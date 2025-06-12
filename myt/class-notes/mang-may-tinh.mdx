@@ -192,7 +192,7 @@ Cột 2
 - [ ] DNS server chuyển các thông báo HTTP request đến các Web server một cách ngẫu nhiên
 - [ ] Đăng ký tên miền của trang Web với nhiều authoritative DNS server
 
-## Câu 23: Trong một mạng LAN có cài đặt một router có chức năng DHCP và DNS. Trễ đầu cuối đến đầu cuối (end-to-end) giữa hai máy bất kỳ trong LAN giả định là 30ms (không đổi, không phụ thuộc kích thước gói tin, không phụ thuộc vào tính toán tại mỗi nút). Một máy tính (máy C) được cấu hình sử dụng DHCP được bật lên và cắm vào mạng LAN đó. Ngay sau khi máy C được cấp phát thành công một địa chỉ IP, C thực hiện một câu truy vấn tên miền <www.vnexpress.net> đến máy chủ DNS nội bộ của mạng LAN. Giả sử rằng tên miền <www.vnexpress.net> đã được cache tại máy chủ DNS nội bộ. Hỏi: Sau bao nhiêu ms kể từ lúc máy C gửi truy vấn tên miền, máy tính C sẽ nhận được phản hồi cho câu truy vấn tên miền <www.vnexpress.net>. (Chỉ điền giá trị số)
+## Câu 23: Trong một mạng LAN có cài đặt một router có chức năng DHCP và DNS. Trễ đầu cuối đến đầu cuối (end-to-end) giữa hai máy bất kỳ trong LAN giả định là 30ms (không đổi, không phụ thuộc kích thước gói tin, không phụ thuộc vào tính toán tại mỗi nút). Một máy tính (máy C) được cấu hình sử dụng DHCP được bật lên và cắm vào mạng LAN đó. Ngay sau khi máy C được cấp phát thành công một địa chỉ IP, C thực hiện một câu truy vấn tên miền `www.vnexpress.net` đến máy chủ DNS nội bộ của mạng LAN. Giả sử rằng tên miền `www.vnexpress.net` đã được cache tại máy chủ DNS nội bộ. Hỏi: Sau bao nhiêu ms kể từ lúc máy C gửi truy vấn tên miền, máy tính C sẽ nhận được phản hồi cho câu truy vấn tên miền `www.vnexpress.net`. (Chỉ điền giá trị số)
 
 - **Trả lời**:
   - 1 gói đi 30 ms
@@ -333,7 +333,7 @@ Cột 2
 - [ ] Độ lớn của bộ nhớ ở cổng ra (output port)
 - [ ] Số lượng công vào (input port) và cổng ra (output port)
 
-## Câu 37: Bob truy nhập vào trang <www.vnexpress.net> sử dụng HTTP 1.1. Trang chủ vnexpress.net chứa 15 hình ảnh. Số lượng kết nối TCP được thực hiện là?
+## Câu 37: Bob truy nhập vào trang `www.vnexpress.net` sử dụng HTTP 1.1. Trang chủ vnexpress.net chứa 15 hình ảnh. Số lượng kết nối TCP được thực hiện là?
 
 - [ ] 2
 - [ ] 15
@@ -1057,11 +1057,11 @@ Chia mod 2: 001100
 - [x] Mất gói tin do tràn bộ đệm
 - [ ] Mất gói tin do lỗi bit trên đường truyền
 
-## Câu 122: Trong một mạng LAN có cài đặt một switch nối với một router. Router được tích hợp chức năng DHCP và DNS. Một máy tính (máy C) được cấu hình sử dụng DHCP được bật lên và cắm vào switch của mạn- [ ] Ngay sau khi máy C được cấp phát thành công một địa chỉ IP, C thực hiện một câu truy vấn tên miền <www.vnexpress.net> đến máy chủ DNS nội bộ của mạng LAN. Giả sử rằng tên miền <www.vnexpress.net> đã được cache tại máy chủ DNS nội bộ. Hỏi: Câu nào chính xác nhất trong các phát biểu dưới đây?
+## Câu 122: Trong một mạng LAN có cài đặt một switch nối với một router. Router được tích hợp chức năng DHCP và DNS. Một máy tính (máy C) được cấu hình sử dụng DHCP được bật lên và cắm vào switch của mạn- [ ] Ngay sau khi máy C được cấp phát thành công một địa chỉ IP, C thực hiện một câu truy vấn tên miền `www.vnexpress.net` đến máy chủ DNS nội bộ của mạng LAN. Giả sử rằng tên miền `www.vnexpress.net` đã được cache tại máy chủ DNS nội bộ. Hỏi: Câu nào chính xác nhất trong các phát biểu dưới đây?
 
 - [x] Sau khi máy C cắm vào switch, ARP được kích hoạt ở lớp datalink, sau đó DHCP được kích hoạt, sau đó DNS được kích hoạt ở tầng ứng dụng
 - [ ] Sau khi máy C cắm vào switch, DHCP được kích hoạt, sau đó DNS được kích hoạt ở tầng ứng dụng khiến cho ARP được kích hoạt ở tầng datalink.
-- [ ] Sau khi máy C cắm vào switch, DHCP được kích hoạt chạy bên trên UDP, sau đó ARP được kích hoạt ở lớp datalink, sau đó DNS chạy ở tầng ứng dụng để có được tên miền <www.vnexpress.net>
+- [ ] Sau khi máy C cắm vào switch, DHCP được kích hoạt chạy bên trên UDP, sau đó ARP được kích hoạt ở lớp datalink, sau đó DNS chạy ở tầng ứng dụng để có được tên miền `www.vnexpress.net`
 - [ ] Sau khi máy C cắm vào switch, DNS được kích hoạt ở tầng ứng dụng, sau đó DHCP được kích hoạt sử dụng UDP ở tầng giao vận, sau đó ARP được kích hoạt ở tầng datalink
 
 ## Câu 123: Giao thức nào gửi yêu cầu quảng bá (broadcast) và nhận phản hồi đơn điểm (unicast)
@@ -1326,7 +1326,7 @@ Chia mod 2: 001100
 - [x] Domain Name System (DNS)
 - [ ] Routing Information Protocol (RIP)
 
-## Câu 157: Khi Bob gửi mail đến Alice có địa chỉ <alice@hogehoge.com>, để biết được mail server của Alice thì mail server của Bob gửi truy vấn DNS như thế nào?
+## Câu 157: Khi Bob gửi mail đến Alice có địa chỉ `<alice@hogehoge.com>`, để biết được mail server của Alice thì mail server của Bob gửi truy vấn DNS như thế nào?
 
 - [ ] Gửi truy vấn tên miền hogehoge.com với type=NS
 - [x] Gửi truy vấn tên miền hogehoge.com với type=MX
@@ -1543,7 +1543,7 @@ Chia mod 2: 001100
     - Bit 1 (DF = Don &#39;t Fragment) là chứa quyền ưu tiên: 1 là gói không dược phép phân mảnh, 0 là có thể được phân mảnh
     - Bit 0: Ko biết
 
-## Câu 186: Để tải về 3 đối tượng Web có Url uet.vnu.edu.vn/index.html,  uet.vnu.edu.vn/pictures/logo.jpg và <www.vnu.edu.vn/logo.jpg>, Web client cần thực hiện bao nhiêu kết nối TCP nếu sử dụng HTTP kết nối liên tục (persistent HTTP) ?
+## Câu 186: Để tải về 3 đối tượng Web có Url `uet.vnu.edu.vn/index.html`, `uet.vnu.edu.vn/pictures/logo.jpg` và `www.vnu.edu.vn/logo.jpg`, Web client cần thực hiện bao nhiêu kết nối TCP nếu sử dụng HTTP kết nối liên tục (persistent HTTP) ?
 
 - [ ] 4
 - [ ] 1
@@ -1551,7 +1551,7 @@ Chia mod 2: 001100
 - [x] 2
 
 - **Giải thích**:
-        - Cần 2 kết nối TCP: uet.vnu.edu.vn, <www.vnu.edu.vn>
+        - Cần 2 kết nối TCP: uet.vnu.edu.vn, `www.vnu.edu.vn`
 
 ## Câu 187: Khi Alice gửi mail cho Bob, làm thế nào để mail server của Alice biết địa chỉ IP của mail server của Bob?
 
