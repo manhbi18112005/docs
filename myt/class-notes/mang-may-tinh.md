@@ -1,8 +1,3 @@
----
-title: "Mạng máy tính"
-description: "Câu hỏi ôn tập"
----
-
 # Mạng máy tính
 
 ## Câu 1: Trong các phát biểu sau phát biểu nào KHÔNG chính xác
